@@ -1,0 +1,25 @@
+[project]
+name = "busgen"
+version = "1.0.0"
+description = "BUSGen: A Foundation Generative Model for Breast Ultrasound Image Analysis"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=1.10.1",
+    "torchvision>=0.11.2",
+    "tqdm>=4.66.2",
+    "pandas>=2.2.1",
+    "opencv-python>=4.9.0.80",
+    "path>=16.10.0",
+    "scikit-learn>=1.4.1.post1",
+    "scikit-image>=0.22.0",
+    "matplotlib>=3.8.3",
+    "timm>=0.6.13",
+    "transformers>=4.39.2",
+    "ninja>=1.11.1.1",
+    "numpy<2.0",
+]
+
+[tool.uv]
+find-links = ["https://download.pytorch.org/whl/cu113/torch_stable.html"]

@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+Checkpoints/
+SampledImgs/
+*.pt
+*.pth
+
+# Model files (uncomment to exclude pkl files from git)
+# ModelFiles/*.pkl
+
+# Data
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+joblog/
+*.log
+
+# Citation file (bibtex already in README)
+*.ris
+
+# uv
+uv.lock
